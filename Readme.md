@@ -36,7 +36,7 @@ The portfolio is designed to be user-friendly and intuitive. Here's how to navig
         - Tattoo CRM: [https://youtu.be/J8vL1iwSgzw](https://youtu.be/J8vL1iwSgzw)
 4. In the "Contact" section, you can find Charles' contact information, including phone, email, Instagram, Twitter, and GitHub.
 
-![Portfolio Screenshot](challenge_2/images/ScreenShot.png)
+![Portfolio Screenshot](images/ScreenShot.png)
 
 ## Credits
 
