@@ -1,0 +1,205 @@
+/* Basic styling */
+
+/* Set font family and reset margins/padding for the entire body */
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Styling for the header section */
+header {
+    background-color: #31343c;
+    color: #fff;
+    padding: 10px;
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styling for the logo box */
+.logo-box {
+    background-color: #9dcacc;
+    color:#333;
+    padding: 5px 5px;
+    width: 180px;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+
+/* Styling for navigation */
+nav {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+
+/* Styling for navigation list */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+/* Styling for navigation items */
+nav li {
+    display: inline;
+    margin: 0 5px;
+    padding: 2px;
+    text-decoration: none;
+    border-bottom: 3px solid #9dcacc;
+}
+
+/* Styling for navigation links */
+nav a {
+    text-decoration: none;
+    color: #9dcacc;
+}
+
+/* Hero section */
+.hero {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    margin-bottom: 25px;
+}
+
+/* Styling for Hero */
+.hero-content {
+    position: absolute;
+    bottom: 20px;
+    right: 5%;
+    background-color: #9dcacc;
+    color: #475e88;
+    padding: 5px 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Styling for sections in general */
+section {
+    padding: 10px 0;
+    text-align: left;
+}
+
+/* About me section */
+
+.split-section {
+    display: flex;
+    align-items: flex-start; /* to align the flex items (the left and right sections) vertically at the top */
+}
+
+.left-section {
+    flex: 0.7; /* flex: 1 Takes 1/4 of the available space */
+    padding: 10px;
+    text-align: right;
+    position: relative; 
+    color: #475e88;
+}
+
+/* Styling for left section links */
+.left-section a {
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    white-space: pre-line;
+  
+}
+
+.right-section {
+    flex: 3; /* Takes 3/4 of the available space */
+    padding: 0px 10px 20px 20px;
+    text-align: left;
+    border-left: 3px solid #485873;
+    margin-right: 20px;
+    color: #475e88;
+    ;
+}
+
+/* Work section */
+
+.work-hero {
+    position: relative;
+    width: calc(100% - 20px);
+    background-image: url(Images/2b.png);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    border: 3px solid #9dc9cc;
+}
+
+.work-title {
+    background-color: #9dcacc;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    padding: 5px 5px;
+    border: 3px solid #9dc9cc;
+}
+
+/* Styling for spans within work title */
+.work-title span {
+    flex-direction: column;
+    display: block;
+}
+
+/* Styling for container of additional work sections */
+.container-work-the-rest {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Styling for individual work sections */
+.section-work-container {
+    width: calc(50% - 22px);
+    margin: 10px 16px 0px 0px;
+    padding: 10px 0px 10px 0px;
+    border: 3px solid #9dc9cc;
+    height: 60px;
+    position: relative;
+}
+
+/* Styling for links within work sections */
+.section-work-container a {
+    text-decoration: none;
+    display: block;
+    color: #475e88;
+    background-color: #9dc9cc;
+    position: absolutecd;
+    bottom: 5px;
+    left: 0;
+    padding: 5px 5px;
+    border: 3px solid #9dc9cc;
+}
+.section-work-container span {
+    display: block;
+    padding: 10px;
+}
+
+/* Contact */
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.contact-info {
+    display: flex;
+    gap: 30px;
+    justify-content: baseline;
+    align-items: baseline;
+}
+/* Styling for contact info links */
+.contact-info a {
+    color: #475e88;
+    text-decoration: none;
+    padding: 4px;
+    border-bottom: 3px solid #475e88;
+    font-size: 14px;
+}
