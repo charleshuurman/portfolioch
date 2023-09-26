@@ -136,12 +136,13 @@ section {
 }
 
 .work-title {
-    background-color: #9dcacc;
+    background-color: #9dcaccdf;
     position: absolute;
     bottom: 10px;
     left: 0;
     padding: 5px 5px;
     border: 3px solid #9dc9cc;
+    width: 350px;
 }
 
 /* Styling for spans within work title */
@@ -171,7 +172,8 @@ section {
     text-decoration: none;
     display: block;
     color: #475e88;
-    background-color: #9dc9cc;
+    background-color: #9dc9cce7;
+    width: 350px;
     position: absolutecd;
     bottom: 5px;
     left: 0;
